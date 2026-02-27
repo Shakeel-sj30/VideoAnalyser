@@ -1,0 +1,53 @@
+# GenTA Affective Computing Pipeline .gitignore
+
+# Data & Outputs (too large / environment-specific)
+frames/
+embeddings/
+outputs/
+videos/
+
+# Jupyter & Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.egg-info/
+dist/
+build/
+
+# Logging
+logs/
+*.log
+
+# Configuration (if containing secrets)
+.env
+config.local.json
+
+# Model Cache (HuggingFace downloads large model files)
+.cache/
+models/
+
+# OS Specific
+Thumbs.db
+.DS_Store
+
+# Project Specific
+*.pkl
+*.h5
+temp/
