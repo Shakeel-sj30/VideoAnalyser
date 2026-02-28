@@ -1,3 +1,4 @@
+App  link:https://shakeel-sj30-videoanalyser-streamlit-app-gr5xst.streamlit.app/
 # GenTA Mini GACS Prototype: Affective Computing for Art & Marketing Visuals
 
 A verification-first AI R&D pipeline for understanding the "vibe" (mood/style) of contemporary art and marketing videos through multimodal embeddings and similarity analysis.
