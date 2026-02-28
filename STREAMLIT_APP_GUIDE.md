@@ -103,6 +103,14 @@ vibe_project/
 2. Visit https://share.streamlit.io
 3. Connect your GitHub repo
 4. App runs automatically
+5. Share the generated public URL (`https://<app-name>.streamlit.app`)
+
+#### Required app entrypoint
+- Main file path: `streamlit_app.py`
+
+#### Required files
+- `requirements.txt` (Python dependencies)
+- `.streamlit/config.toml` (runtime config)
 
 ### Option 2: Docker
 ```dockerfile

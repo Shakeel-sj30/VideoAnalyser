@@ -124,6 +124,29 @@ This notebook includes:
 
 ---
 
+## 🌐 Share with Anyone (Public URL)
+
+### Recommended: Streamlit Community Cloud (Free)
+
+This gives you a permanent public URL like:
+`https://your-app-name.streamlit.app`
+
+1. Push this project to a GitHub repository.
+2. Go to [https://share.streamlit.io](https://share.streamlit.io).
+3. Click **New app** and select:
+   - Repository: your GitHub repo
+   - Branch: `main` (or your default branch)
+   - Main file path: `streamlit_app.py`
+4. Click **Deploy**.
+5. Share the generated `.streamlit.app` URL with anyone.
+
+### Notes
+- Dependencies are read from `requirements.txt`.
+- Streamlit runtime settings are in `.streamlit/config.toml`.
+- First launch can take a few minutes while packages install.
+
+---
+
 ## 📊 Expected Outputs
 
 After running the pipeline, you'll have:
